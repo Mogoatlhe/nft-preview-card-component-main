@@ -7,8 +7,8 @@ body{
 
 
 #card{
-    margin: 10vh auto;
-    width: 300px;
+    margin: 15vh auto;
+    width: 375px;
     border-radius: 3%;
     background-color: hsl(216, 50%, 16%);
     display: flex;
@@ -16,13 +16,13 @@ body{
 }
 
 #card-container{
-    width: 260px;
+    width: 310px;
     padding-bottom: 5%;
 }
 
 #card-image{
-    width: 260px;
-    height: 260px;
+    width: 310px;
+    height: 310px;
     border-radius: 3%;
     margin-top: 10%;
     background-size: cover;
