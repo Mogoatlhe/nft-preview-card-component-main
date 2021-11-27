@@ -38,13 +38,6 @@ body{
     z-index: 99;
 }
 
-#icon-view2{
-    position: absolute;
-    display: none;
-    z-index: 99;
-    justify-content: center;
-}
-
 #image-container:hover #icon-view, #image-container:hover #icon-view2{
     display: block;
     cursor: pointer;
