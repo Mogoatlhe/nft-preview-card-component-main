@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+
+#card{
+    margin: 10vh auto;
+    width: 300px;
+    border-radius: 3%;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    justify-content: center;
+}
+
+#card-container{
+    width: 260px;
+    padding-bottom: 5%;
+}
+
+#card-image{
+    width: 260px;
+    height: 260px;
+    border-radius: 3%;
+    margin-top: 10%;
+    background-size: cover;
+    background-image: url("./../images/image-equilibrium.jpg");
+}
+
+#card-header{
+    margin-top: 20px;
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+#etherium-and-days{
+    padding-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+svg, #etherium-price, #days-left-text{
+    margin-top: 5px;
+}
+
+svg, #etherium-price, #days-left-text, #creator-avatar, #creator-text{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#etherium-price{
+    color: hsl(178, 100%, 50%);
+}
+
+#creator{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+#creator-text, #days-left-text, #card-text{
+    color: hsl(215, 51%, 70%);
+}
+
+#creator-avatar{
+    margin-top: 8px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: solid 3px hsl(0, 0%, 100%);
+    background-image: url("./../images/image-avatar.png");
+    background-size: contain;
+}
+
+#creator-name{
+    color: hsl(0, 0%, 100%)
+}
+
+#creator-name:hover, #card-header:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
