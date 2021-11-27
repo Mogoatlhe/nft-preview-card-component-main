@@ -33,13 +33,19 @@ body{
     padding: 130px;
     border: hsl(178, 100%, 50%) 1px solid;
     border-radius: 3%;
-    background-color: hsl(178, 100%, 50%);
-    opacity: 0.5;
+    background-color: hsl(178, 100%, 50%, 0.5);
     display: none;
     z-index: 99;
 }
 
-#image-container:hover #icon-view{
+#icon-view2{
+    position: absolute;
+    display: none;
+    z-index: 99;
+    justify-content: center;
+}
+
+#image-container:hover #icon-view, #image-container:hover #icon-view2{
     display: block;
     cursor: pointer;
 }
